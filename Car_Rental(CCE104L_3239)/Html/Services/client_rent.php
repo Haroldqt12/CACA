@@ -29,7 +29,7 @@ if (!isset($_SESSION['email'])) {
 
                         <ul class="drop_service">
                             <li><a id="dropdown1" href="../Services/Cust_Serv.php">CUSTOMER SERVICE</a></li>
-                            <li><a id="dropdown2" href="../Ciano2/services.php">VEHICLE CATEGORY</a></li>
+                            <li><a id="dropdown2" href="../VEHICLE_CAT/services.php">VEHICLE CATEGORY</a></li>
                         </ul>
 
                 </li>
@@ -69,6 +69,7 @@ if (!isset($_SESSION['email'])) {
                                                 <option value="van">Van</option>
                                                 <option value="sedan">Sedan</option>
                                                 <option value="loaf">Loaf</option>
+                                                <option value="hatchback">Hatchback</option>
                                             </select><br>
                                                        
                             <label for="vehicle-manu-selection"></label>                    
@@ -78,6 +79,14 @@ if (!isset($_SESSION['email'])) {
                                                 <option value="nissan">Nissan</option>
                                                 <option value="ford">Ford</option>
                                                 <option value="toyota">Toyota</option>
+                                                <option value="hyundai">Hyundai</option>
+                                                <option value="mazda">Mazda</option>
+                                                <option value="BMW">BMW</option>
+                                                <option value="mitshubishi">Mitshubishi</option>
+                                                <option value="cardillac">Cardillac</option>
+                                                <option value="crysler pacifica">Crysler Pacifica</option>
+                                                <option value="suzuki">Suzuki</option>
+
                                             </select><br>
                             
                             <p class="pick">Pick up date:</p>
